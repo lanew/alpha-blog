@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+
+img {
+  width: 450px;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.row {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#left-well {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#right-well {
+  margin-top: 5px;
+  margin-bottom: 5px;
+

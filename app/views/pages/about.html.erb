@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test App</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/my-style.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <h1>Welcome to my about page</h1>
+    <%= link_to 'Home', root_path %>
+   <div class="jumbotron">
+     <img src="<%= asset_path( 'people.jpg' ) %>" class="img-responsive" alt="Responsive image"> 
+   </div>
+  <div class="row">
+    <div class="col-md-6" class="well-sm" id="left-well">
+    <p>This is the left side. This should be over to the left to show what is going on. Now, Let's try this and make sure it works when we apply css to it. If it doesn't then, let's break out of it.</p>
+    </div>
+    <div class="col-md-6" class="well-sm" id="right-well">
+    <p>Some text here too. Now we can see all the text that we need to see. Maybe this is some better text to be displayed, just to get a random understanding of how the text should look.</p>
+    </div>
+  </div>
+  <footer>
+    <p>All rights reserved. Lane Watson 2015</p>
+  </footer>
+</body>
+
+</html>
